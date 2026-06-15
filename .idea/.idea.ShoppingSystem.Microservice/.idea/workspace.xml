@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d02832-454c-4033-a3c2-bd5d17c43ae3" name="Changes" comment="" />
+    <list default="true" id="85d02832-454c-4033-a3c2-bd5d17c43ae3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShoppingSystem.Microservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShoppingSystem.Microservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingSystem.Microservice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingSystem.Microservice.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +16,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MrFarbodMirzaee"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/MrFarbodMirzaee/ShoppingSystemMicroservice.git",
     "accountId": "13cac956-4560-465f-90e0-f94f2e3dcc1b"
   }
 }]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
@@ -60,13 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1722796619682</updated>
       <workItem from="1722796621632" duration="48000" />
-      <workItem from="1781534494155" duration="525000" />
+      <workItem from="1781534494155" duration="855000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
