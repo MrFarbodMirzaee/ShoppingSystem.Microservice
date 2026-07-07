@@ -48,25 +48,25 @@ The solution is organized into separate projects, where each project has a speci
 ### Solution Structure
 
 ```text
-ShoppingSystem
+ShoppingSystem.Microservice
 │
-├── ShoppingSystem.API.Gateway
+├── ShoppingSystem.Microservice.Gateway
 │   └── YARP Reverse Proxy
 │
-├── ShoppingSystem.Domain
+├── ShoppingSystem.Microservice.Domain
 │   ├── Aggregates
 │   ├── Entities
 │   ├── Value Objects
 │   └── Domain Events
 │
-├── ShoppingSystem.Application
+├── ShoppingSystem.Microservice.Application
 │   ├── CQRS Commands
 │   ├── CQRS Queries
 │   ├── MediatR Handlers
 │   ├── DTOs
 │   └── Validators
 │
-├── ShoppingSystem.Infrastructure
+├── ShoppingSystem.Microservice.Infrastructure
 │   ├── Entity Framework Core
 │   ├── Repository Pattern
 │   ├── Unit Of Work
@@ -74,19 +74,19 @@ ShoppingSystem
 │   ├── RabbitMQ
 │   └── Notification Abstractions
 │
-├── ShoppingSystem.Infrastructure.Identity
+├── ShoppingSystem.Microservice.Infrastructure.Identity
 │   ├── ASP.NET Core Identity
 │   ├── JWT Authentication
 │   ├── Refresh Tokens
 │   └── OAuth Authentication
 │
-├── ShoppingSystem.Microservice.Notifications.Email
+├── ShoppingSystem.Microservice.Notification.Email
 │   ├── Email Service
 │   ├── MailKit Integration
 │   ├── Email Templates
 │   └── Email Configuration
 │
-└── ShoppingSystem.Microservice.Notifications.Sms
+└── ShoppingSystem.Microservice.Notification.Sms
     ├── SMS Service
     ├── Twilio Integration
     ├── SMS Templates
