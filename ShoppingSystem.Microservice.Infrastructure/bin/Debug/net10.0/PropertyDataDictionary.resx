@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CategoryId" xml:space="preserve">
+    <value>Unique identifier of the associated category.</value>
+    <comment>References the related category.</comment>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Date and time when the entity was created.</value>
+    <comment>Automatically assigned upon creation.</comment>
+  </data>
+  <data name="CustomerId" xml:space="preserve">
+    <value>Unique identifier of the associated customer.</value>
+    <comment>References the customer related to the entity.</comment>
+  </data>
+  <data name="DeletedAt" xml:space="preserve">
+    <value>Date and time when the entity was deleted.</value>
+    <comment>Used for soft deletion.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description providing additional information.</value>
+    <comment>Detailed textual information about the entity.</comment>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Unique identifier of the entity.</value>
+    <comment>Primary key.</comment>
+  </data>
+  <data name="InventoryId" xml:space="preserve">
+    <value>Unique identifier of the associated inventory record.</value>
+    <comment>References the related inventory.</comment>
+  </data>
+  <data name="IsDeleted" xml:space="preserve">
+    <value>Indicates whether the entity has been soft deleted.</value>
+    <comment>Used by soft delete functionality.</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name of the entity.</value>
+    <comment>Human-readable name.</comment>
+  </data>
+  <data name="OrderId" xml:space="preserve">
+    <value>Unique identifier of the associated order.</value>
+    <comment>References the related order.</comment>
+  </data>
+  <data name="PaymentId" xml:space="preserve">
+    <value>Unique identifier of the associated payment.</value>
+    <comment>References the related payment.</comment>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Monetary value of the entity.</value>
+    <comment>Represents the unit price.</comment>
+  </data>
+  <data name="ProductId" xml:space="preserve">
+    <value>Unique identifier of the associated product.</value>
+    <comment>References the related product.</comment>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity associated with the entity.</value>
+    <comment>Represents the number of units.</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Current status of the entity.</value>
+    <comment>Represents the lifecycle state.</comment>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Total calculated monetary value.</value>
+    <comment>Represents the aggregate amount.</comment>
+  </data>
+  <data name="UpdatedAt" xml:space="preserve">
+    <value>Date and time of the last update.</value>
+    <comment>Updated whenever the entity changes.</comment>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Indicates whether the entity is active.</value>
+    <comment>Determines if the entity is currently active and available for use.</comment>
+  </data>
+  <data name="ParentCategoryId" xml:space="preserve">
+    <value>Unique identifier of the parent category.</value>
+    <comment>References the parent category in a hierarchical structure.</comment>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Monetary amount.</value>
+    <comment>Represents the numeric value of a monetary amount.</comment>
+  </data>
+  <data name="CartId" xml:space="preserve">
+    <value>Unique identifier of the associated cart.</value>
+    <comment>References the related shopping cart.</comment>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City name.</value>
+    <comment>Represents the city portion of an address.</comment>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Content type of the file.</value>
+    <comment>Represents the MIME type of the stored file.</comment>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country name.</value>
+    <comment>Represents the country portion of an address.</comment>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency code.</value>
+    <comment>Represents the ISO currency code associated with the monetary value.</comment>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Name of the file.</value>
+    <comment>Stores the original or assigned file name.</comment>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Path where the file is stored.</value>
+    <comment>Specifies the storage location of the file.</comment>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Size of the file in bytes.</value>
+    <comment>Represents the total size of the stored file.</comment>
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>Indicates whether the entity is available.</value>
+    <comment>Determines if the entity is currently available for use or purchase.</comment>
+  </data>
+  <data name="IsMain" xml:space="preserve">
+    <value>Indicates whether this item is the primary one.</value>
+    <comment>Specifies if the record is marked as the primary item.</comment>
+  </data>
+  <data name="OrderNumber" xml:space="preserve">
+    <value>Unique business identifier of the order.</value>
+    <comment>Represents the human-readable order number.</comment>
+  </data>
+  <data name="PaidAt" xml:space="preserve">
+    <value>Date and time the payment was completed.</value>
+    <comment>Records when the payment was successfully processed.</comment>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Postal or ZIP code.</value>
+    <comment>Represents the postal code of an address.</comment>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Name of the associated product.</value>
+    <comment>Represents the display name of the product.</comment>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State or province.</value>
+    <comment>Represents the state or province portion of an address.</comment>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Street address.</value>
+    <comment>Represents the street portion of an address.</comment>
+  </data>
+  <data name="TransactionId" xml:space="preserve">
+    <value>Unique identifier of the payment transaction.</value>
+    <comment>References the external or internal payment transaction.</comment>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Price of a single unit.</value>
+    <comment>Represents the price per individual unit.</comment>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>Unique identifier of the associated user.</value>
+    <comment>References the user related to the entity.</comment>
+  </data>
+</root>

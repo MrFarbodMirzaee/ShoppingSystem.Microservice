@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Infrastructure</RootNamespace>
+      <UserSecretsId>d721858f-3385-46d1-ba7e-066b4b179d43</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Application\ShoppingSystem.Microservice.Application.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Domain\ShoppingSystem.Microservice.Domain.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Infrastructure.Identity\ShoppingSystem.Microservice.Infrastructure.Identity.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Resource\ShoppingSystem.Microservice.Resource.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.9" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.9" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.9" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.9">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.2" />
+      <PackageReference Include="Oracle.EntityFrameworkCore" Version="10.23.26200" />
+      <PackageReference Include="RabbitMQ.Client" Version="7.2.1" />
+      <PackageReference Include="Scrutor" Version="7.0.0" />
+      <PackageReference Include="System.Resources.Extensions" Version="10.0.9" />
+    </ItemGroup>
+
+</Project>

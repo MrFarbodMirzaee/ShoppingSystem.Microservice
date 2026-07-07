@@ -1,0 +1,65 @@
+﻿{
+  "ReverseProxy": {
+    "Routes": {
+      "api-route": {
+        "ClusterId": "main-cluster",
+        "Match": {
+          "Path": "/api/{version}/{**catch-all}"
+        }
+      },
+
+      "auth-route": {
+        "ClusterId": "auth-cluster",
+        "Match": {
+          "Path": "/auth/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathRemovePrefix": "/auth" }
+        ]
+      },
+
+      "property-route": {
+        "ClusterId": "property-cluster",
+        "Match": {
+          "Path": "/property/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathRemovePrefix": "/property" }
+        ]
+      },
+
+      "health-route": {
+        "ClusterId": "auth-cluster",
+        "Match": {
+          "Path": "/health"
+        }
+      }
+    },
+
+    "Clusters": {
+      "main-cluster": {
+        "Destinations": {
+          "d1": {
+            "Address": "https://localhost:7170/"
+          }
+        }
+      },
+
+      "auth-cluster": {
+        "Destinations": {
+          "d1": {
+            "Address": "https://localhost:7170/"
+          }
+        }
+      },
+
+      "property-cluster": {
+        "Destinations": {
+          "d1": {
+            "Address": "https://localhost:5002/"
+          }
+        }
+      }
+    }
+  }
+}

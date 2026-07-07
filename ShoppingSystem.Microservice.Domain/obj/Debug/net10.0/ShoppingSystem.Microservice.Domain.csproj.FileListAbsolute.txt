@@ -1,0 +1,13 @@
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\bin\Debug\net10.0\ShoppingSystem.Microservice.Domain.deps.json
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\bin\Debug\net10.0\ShoppingSystem.Microservice.Domain.dll
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\bin\Debug\net10.0\ShoppingSystem.Microservice.Domain.pdb
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.AssemblyInfoInputs.cache
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.AssemblyInfo.cs
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.sourcelink.json
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.dll
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\refint\ShoppingSystem.Microservice.Domain.dll
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.pdb
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ref\ShoppingSystem.Microservice.Domain.dll
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Domain\obj\Debug\net10.0\ShoppingSystem.Microservice.Domain.csproj.AssemblyReference.cache

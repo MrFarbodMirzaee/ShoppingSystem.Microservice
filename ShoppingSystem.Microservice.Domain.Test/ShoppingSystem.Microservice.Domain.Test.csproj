@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+        <RootNamespace>ShoppingSystem.Microservice.Test</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.0"/>
+        <PackageReference Include="FluentAssertions" Version="8.10.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.7.0" />
+        <PackageReference Include="xunit" Version="2.9.3" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Xunit"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Application\ShoppingSystem.Microservice.Application.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Domain\ShoppingSystem.Microservice.Domain.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Gateway\ShoppingSystem.Microservice.Gateway.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Infrastructure.Identity\ShoppingSystem.Microservice.Infrastructure.Identity.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Infrastructure\ShoppingSystem.Microservice.Infrastructure.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Notification.Email\ShoppingSystem.Microservice.Notification.Email.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Notification.Sms\ShoppingSystem.Microservice.Notification.Sms.csproj" />
+      <ProjectReference Include="..\ShoppingSystem.Microservice.Resource\ShoppingSystem.Microservice.Resource.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Entities\" />
+      <Folder Include="Events\" />
+    </ItemGroup>
+
+</Project>

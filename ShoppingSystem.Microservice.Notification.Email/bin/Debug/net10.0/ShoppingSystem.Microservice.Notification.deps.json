@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ShoppingSystem.Microservice.Notification/1.0.0": {
+        "runtime": {
+          "ShoppingSystem.Microservice.Notification.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoppingSystem.Microservice.Notification/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

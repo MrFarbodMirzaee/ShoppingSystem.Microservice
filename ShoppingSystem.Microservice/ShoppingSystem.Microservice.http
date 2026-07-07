@@ -1,0 +1,6 @@
+@ShoppingSystem.Microservice_HostAddress = http://localhost:5227
+
+GET {{ShoppingSystem.Microservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

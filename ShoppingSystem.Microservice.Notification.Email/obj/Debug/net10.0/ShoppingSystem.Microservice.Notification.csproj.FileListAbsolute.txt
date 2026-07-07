@@ -1,0 +1,12 @@
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\bin\Debug\net10.0\ShoppingSystem.Microservice.Notification.deps.json
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\bin\Debug\net10.0\ShoppingSystem.Microservice.Notification.dll
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\bin\Debug\net10.0\ShoppingSystem.Microservice.Notification.pdb
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ShoppingSystem.Microservice.Notification.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ShoppingSystem.Microservice.Notification.AssemblyInfoInputs.cache
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ShoppingSystem.Microservice.Notification.AssemblyInfo.cs
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ShoppingSystem.Microservice.Notification.csproj.CoreCompileInputs.cache
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ShoppingSystem.Microservice.Notification.sourcelink.json
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ShoppingSystem.Microservice.Notification.dll
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\refint\ShoppingSystem.Microservice.Notification.dll
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ShoppingSystem.Microservice.Notification.pdb
+D:\Projects\DotnetProjects\ShoppingSystem.Microservice\ShoppingSystem.Microservice.Notification\obj\Debug\net10.0\ref\ShoppingSystem.Microservice.Notification.dll

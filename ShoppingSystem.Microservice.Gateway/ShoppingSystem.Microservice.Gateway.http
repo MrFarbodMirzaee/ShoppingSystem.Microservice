@@ -1,0 +1,6 @@
+@ShoppingSystem.Microservice.Gateway_HostAddress = http://localhost:5110
+
+GET {{ShoppingSystem.Microservice.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h71xzUB+Y/A=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\DotnetProjects\\ShoppingSystem.Microservice\\ShoppingSystem.Microservice.Domain\\ShoppingSystem.Microservice.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Farbod\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
+    "C:\\Users\\Farbod\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
