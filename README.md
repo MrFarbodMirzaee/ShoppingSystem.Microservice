@@ -272,7 +272,7 @@ Current configuration:
 {
   "ConnectionStrings": {
     "ShoppingSystem_Microservice": "Your connection string",
-     "ShoppingSystem_Microservice": "Your connection string"
+     "ShoppingSystem_Microservice_Identity": "Your connection string"
 }
 ```
 # RabbitMQ Configuration
