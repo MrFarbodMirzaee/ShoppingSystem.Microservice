@@ -319,6 +319,10 @@ The email configuration is defined in `appsettings.json`:
   }
 }
 ```
+After starting the required Docker dependencies, you can access the web interface (GUI) at:
+
+http://localhost:8025
+
 # Running the Application
 [⬆ Back to Top](#top)
 
