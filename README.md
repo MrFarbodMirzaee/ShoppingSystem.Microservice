@@ -377,6 +377,11 @@ The test projects cover different layers of the system, including:
 
 ShoppingSystem is continuously evolving. The following features and improvements are planned for future development.
 
+# Future To Do List
+[⬆ Back to Top](#top)
+
+ShoppingSystem is continuously evolving. The following features and improvements are planned for future development.
+
 | Category | Planned Improvement |
 |---|---|
 | Infrastructure | Fully containerize the complete application using Docker |
@@ -393,12 +398,22 @@ ShoppingSystem is continuously evolving. The following features and improvements
 | Performance | Reduce unnecessary database queries |
 | Performance | Implement distributed caching between services |
 | Performance | Add response caching where applicable |
+| Observability | Integrate Prometheus for metrics collection |
+| Observability | Configure Grafana dashboards for real-time monitoring |
+| Observability | Monitor application, infrastructure, and database metrics |
+| Observability | Implement centralized logging |
+| Observability | Add distributed tracing across microservices |
 | Security | Implement API rate limiting |
 | Security | Protect APIs against excessive requests |
 | Security | Prevent abuse and unnecessary resource consumption |
-| Security | Add configurable rate limit policies |
-| Security | Improve secret management |
-| Security | Move sensitive configuration to secure secret providers |
-| Security | Improve production authentication security |
-
----
+| Security | Add configurable rate limiting policies |
+| Testing | Complete Unit Test coverage across all layers |
+| Testing | Add Integration Tests for APIs and database operations |
+| Testing | Implement End-to-End (E2E) testing |
+| Testing | Add Performance and Load Testing |
+| Testing | Increase overall code coverage |
+| CI/CD | Automate testing within CI/CD pipelines |
+| CI/CD | Automate Docker image building and publishing |
+| CI/CD | Automate deployments to staging and production |
+| Documentation | Expand API documentation and developer guides |
+| Documentation | Improve architecture and deployment documentation |
