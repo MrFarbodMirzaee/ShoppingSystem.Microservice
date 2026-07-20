@@ -1,3 +1,4 @@
+<a id="top" style="display: none;"></a>
 - [Introduction](#introduction)
 - [Usage Guide](#usage-guide)
     - [Prerequisites](#prerequisites)
@@ -10,7 +11,6 @@
     - [Running Tests](#running-tests)
     - [Future To do List](#future-to-do-list)
 ---
-<a id="top"></a>
 
 # Introduction
 
