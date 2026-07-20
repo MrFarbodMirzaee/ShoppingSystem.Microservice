@@ -210,6 +210,7 @@ ShoppingSystem supports configurable database providers for the main application
 Supported Providers
 SQL Server
 PostgreSQL
+Oracle
 MySQL
 In-Memory Database (for testing and development scenarios)
 Selecting a Database Provider
@@ -243,6 +244,7 @@ Infrastructure
 └── Migrations
 ├── SqlServer
 ├── Postgres
+├── Oracle
 ├── MySql
 └── InMemory
 ```
