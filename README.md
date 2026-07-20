@@ -379,11 +379,6 @@ The test projects cover different layers of the system, including:
 
 ShoppingSystem is continuously evolving. The following features and improvements are planned for future development.
 
-# Future To Do List
-[⬆ Back to Top](#top)
-
-ShoppingSystem is continuously evolving. The following features and improvements are planned for future development.
-
 | Category | Planned Improvement |
 |---|---|
 | Infrastructure | Fully containerize the complete application using Docker |
