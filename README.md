@@ -386,6 +386,13 @@ ShoppingSystem is continuously evolving. The following features and improvements
 | Infrastructure | Containerize infrastructure dependencies |
 | Infrastructure | Create a complete Docker Compose environment for local development |
 | Infrastructure | Improve deployment consistency across environments |
+| Database | Add MongoDB for document-based data |
+| Database | Store media metadata and flexible product/catalog data in MongoDB |
+| Database | Store activity logs and audit data in MongoDB |
+| Storage | Integrate MinIO for object/file storage |
+| Storage | Store product images, videos, and other media files in MinIO |
+| Storage | Store file metadata and object references in the database |
+| Storage | Implement secure file upload and download using MinIO |
 | Deployment | Add Kubernetes deployment support |
 | Deployment | Add container orchestration |
 | Deployment | Improve environment-based configuration management |
