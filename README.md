@@ -393,6 +393,7 @@ ShoppingSystem is continuously evolving. The following features and improvements
 | Storage | Store product images, videos, and other media files in MinIO |
 | Storage | Store file metadata and object references in the database |
 | Storage | Implement secure file upload and download using MinIO |
+| Microservices | Migrate the modular monolith to independently deployable microservices |
 | Deployment | Add Kubernetes deployment support |
 | Deployment | Add container orchestration |
 | Deployment | Improve environment-based configuration management |
