@@ -377,7 +377,7 @@ The test projects cover different layers of the system, including:
 # Future To Do List
 [⬆ Back to Top](#top)
 
-ShoppingSystem is continuously evolving. The following features and improvements are planned for future development.
+ShoppingSystem is continuously evolving. The following features and improvements are planned for future development, focusing on scalability, cloud infrastructure, security, performance, and maintainability.
 
 | Category | Planned Improvement |
 |---|---|
@@ -386,6 +386,18 @@ ShoppingSystem is continuously evolving. The following features and improvements
 | Infrastructure | Containerize infrastructure dependencies |
 | Infrastructure | Create a complete Docker Compose environment for local development |
 | Infrastructure | Improve deployment consistency across environments |
+| AWS / Cloud Infrastructure | Integrate Amazon Web Services (AWS) into the application infrastructure |
+| AWS / Cloud Infrastructure | Deploy containerized applications using Amazon ECS |
+| AWS / Cloud Infrastructure | Introduce Amazon ECR for Docker image storage and management |
+| AWS / Cloud Infrastructure | Use Amazon S3 for scalable object and media storage |
+| AWS / Cloud Infrastructure | Integrate AWS IAM for identity and access management |
+| AWS / Cloud Infrastructure | Use AWS Secrets Manager for secure storage of application secrets and credentials |
+| AWS / Cloud Infrastructure | Integrate Amazon CloudWatch for centralized logging and monitoring |
+| AWS / Cloud Infrastructure | Configure AWS CloudWatch alarms for infrastructure and application monitoring |
+| AWS / Cloud Infrastructure | Use AWS Application Load Balancer for distributing incoming traffic |
+| AWS / Cloud Infrastructure | Configure AWS Auto Scaling to handle changing application workloads |
+| AWS / Cloud Infrastructure | Explore AWS Lambda for serverless background processing |
+| AWS / Cloud Infrastructure | Automate cloud infrastructure provisioning using Terraform |
 | Database | Add MongoDB for document-based data |
 | Database | Store media metadata and flexible product/catalog data in MongoDB |
 | Database | Store activity logs and audit data in MongoDB |
@@ -393,8 +405,11 @@ ShoppingSystem is continuously evolving. The following features and improvements
 | Storage | Store product images, videos, and other media files in MinIO |
 | Storage | Store file metadata and object references in the database |
 | Storage | Implement secure file upload and download using MinIO |
+| Storage | Introduce Amazon S3 as a cloud-based alternative to MinIO |
+| Storage | Implement secure, time-limited file access using S3 Pre-signed URLs |
 | Microservices | Migrate the modular monolith to independently deployable microservices |
 | Deployment | Add Kubernetes deployment support |
+| Deployment | Explore Amazon EKS for managed Kubernetes orchestration |
 | Deployment | Add container orchestration |
 | Deployment | Improve environment-based configuration management |
 | Performance | Add Redis caching support |
@@ -403,15 +418,19 @@ ShoppingSystem is continuously evolving. The following features and improvements
 | Performance | Reduce unnecessary database queries |
 | Performance | Implement distributed caching between services |
 | Performance | Add response caching where applicable |
+| Performance | Explore Amazon ElastiCache for managed Redis caching |
 | Observability | Integrate Prometheus for metrics collection |
 | Observability | Configure Grafana dashboards for real-time monitoring |
 | Observability | Monitor application, infrastructure, and database metrics |
 | Observability | Implement centralized logging |
 | Observability | Add distributed tracing across microservices |
+| Observability | Integrate AWS X-Ray for distributed tracing |
 | Security | Implement API rate limiting |
 | Security | Protect APIs against excessive requests |
 | Security | Prevent abuse and unnecessary resource consumption |
 | Security | Add configurable rate limiting policies |
+| Security | Explore AWS WAF for application-layer protection |
+| Security | Implement AWS IAM roles and least-privilege access policies |
 | Testing | Complete Unit Test coverage across all layers |
 | Testing | Add Integration Tests for APIs and database operations |
 | Testing | Implement End-to-End (E2E) testing |
@@ -420,5 +439,9 @@ ShoppingSystem is continuously evolving. The following features and improvements
 | CI/CD | Automate testing within CI/CD pipelines |
 | CI/CD | Automate Docker image building and publishing |
 | CI/CD | Automate deployments to staging and production |
+| CI/CD | Integrate GitHub Actions with AWS deployment workflows |
+| CI/CD | Automate Docker image publishing to Amazon ECR |
+| CI/CD | Automate deployments to Amazon ECS or EKS |
 | Documentation | Expand API documentation and developer guides |
 | Documentation | Improve architecture and deployment documentation |
+| Documentation | Document AWS infrastructure and cloud deployment architecture |
